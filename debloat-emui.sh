@@ -54,6 +54,8 @@ adb shell pm uninstall com.huawei.health #Health
 adb shell pm uninstall --user 0 com.huawei.health
 adb shell pm uninstall com.huawei.KoBackup #Backup
 adb shell pm uninstall --user 0 com.huawei.KoBackup
+adb shell pm uninstall --user 0 com.huawei.wifiprobqeservice #WifiPro
+adb shell pm uninstall --user 0 com.huawei.android.hwaps #HWAPS
 
 # EMUI 8 Parts - WAS-LX1C432
 adb shell pm uninstall --user 0 com.huawei.hifolder #unknown
@@ -70,6 +72,12 @@ adb shell pm uninstall --user 0 com.huawei.tips #More Tips
 adb shell pm uninstall --user 0 com.swiftkey.swiftkeyconfigurator #SwiftKeyboard Part
 adb shell pm uninstall --user 0 com.qeexo.smartshot #unknown
 adb shell pm uninstall --user 0 com.huawei.android.instantonline #unknown
+adb shell pm uninstall --user 0 com.huawei.hicloud #HiCloud
+adb shell pm uninstall --user 0 com.huawei.intelligent #HUAWEI Assistant
+adb shell pm uninstall --user 0 com.huawei.trustagent #Smart Unlock
+adb shell pm uninstall --user 0 com.huawei.android.pushagent #Push Service
+adb shell pm uninstall --user 0 com.huawei.hwdetectrepair #Smart-Diagnostic
+adb shell pm uninstall --user 0 com.huawei.rcsserviceapplication #RCS
 
 # EMUI 10 Parts - HRY-LX1C432
 adb shell pm uninstall --user 0 com.huawei.wallet #Wallet
